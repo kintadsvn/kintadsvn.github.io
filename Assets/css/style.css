@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 15px;
+    background-color: rgb(176, 238, 158);
+}
+
+.container a {
+    color: black;
+    font-weight: 500;
+}
+
+a.navTitle {
+    text-transform: uppercase;
+}
+
+.navClick {
+    display: flex;
+    align-items: center;
+}
+
+.navClick ul {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.navbar .container a {
+    text-decoration: none;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+}
+
+.loginClick {
+    background-color: grey;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.loginClick a {
+    color: white;
+    font-weight: 500;
+}
+/* Akhir Navbar */
+
+article {
+    margin: 0 200px;
+}
+
+section {
+    margin: 75px 0;
+}
+
+/* Content 1*/
+.content1 {
+    display: flex;
+}
+
+.content1 .text {
+    font-size: 20px;
+    display: inline;
+    margin: auto 0;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.content1 h1 {
+    font-size: 50px;
+    line-height: 75px;
+}
+/* Akhir Content 1 */
+
+/* Content 2 */
+.content2{
+    display: flex;
+}
+
+.content2 .text {
+    width: 1100px;
+    font-size: 18px;
+    display: inline;
+    margin: auto 0;
+    margin-left: 20px;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 75px;
+}
+
+.tag {
+    width: 500px;
+    margin: auto 0;
+}
+
+.tag .nametag {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 2px;
+    text-transform: uppercase;
+    background-color: rgb(176, 238, 158);
+}
+/* Akhir Content 2 */
+
+/* Content 3 */
+.content3 {
+    display: flex;
+}
+
+.content3 .profile {
+    width: 150px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.content3 img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.content3 .text {
+    display: inline;
+    box-sizing: border-box;
+}
+/* Akhir Content 3 */
+
+/* Login */
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: rgb(176, 238, 158);
+    width: 400px;
+    padding: 20px 50px;
+}
+
+.card h1 {
+    text-align: center;
+    color: grey;
+}
+
+form label {
+    color: grey;
+}
+
+form input[type="email"], form input[type="password"], form input[type="text"], form input[type="date"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 16px;
+}
+
+form input [type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+form span {
+    color: grey;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #26306e; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+/* Akhir Login */
